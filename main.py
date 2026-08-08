@@ -15,7 +15,7 @@ from finish_scene import FinishScene, P_DONE
 from endings     import WinScreen, GameOverCinematic
 from stones      import StoneManager
 
-WIN_LIMIT =1
+WIN_LIMIT =60
 
 # ── Init ───────────────────────────────────────────────────────────────────
 pygame.init()

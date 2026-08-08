@@ -124,7 +124,7 @@ class WinScreen:
 
         # Title
         pulse = 1+0.04*math.sin(self.tick*3)
-        raw = self.fT.render("100 TURTLES SAVED!", True, (60,140,60))
+        raw = self.fT.render("TURTLES SAVED!", True, (60,140,60))
         sc2 = pygame.transform.smoothscale(raw,(int(raw.get_width()*pulse),int(raw.get_height()*pulse)))
         shd = pygame.transform.smoothscale(self.fT.render("100 TURTLES SAVED!",True,(0,0,0)),
                                            (int(raw.get_width()*pulse),int(raw.get_height()*pulse)))
